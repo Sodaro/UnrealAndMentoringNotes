@@ -1,0 +1,17 @@
+GENERAL
+
+-blueprints are binary files so need to be checked out -> only one designer per blueprint at a time
+-separate out data so multiple designers can work at the same time
+-check(): assertions to avoid defensive coding
+
+DATA ASSET
+-UDataAsset for storing stuff (like scriptableobjects in unity)
+-select data asset from: miscellaneous->dataasset
+
+DATATABLE
+1. create struct for storing data
+2. asset can be created from miscellaneous->datatable
+
+COMPOSITE DATATABLE
+can contain other datatables
+table of tables kinda
