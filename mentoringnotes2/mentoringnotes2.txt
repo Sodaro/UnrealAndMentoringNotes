@@ -1,0 +1,16 @@
+construction script
+anytime an actor changes in editor (moves, spawns etc)
+useful for debug drawing stuff
+
+3D widget can be created with MakeEditWidget Meta Property Specifier
+
+eye icon next to variable in BP makes it visible to instance editor
+
+Rule of Three/Five/Zero
+SmartPointers
+
+avoid opinionated code (class shouldn't require a unique_ptr etc)
+delete after function/constructor means that the function/constructor cannot be used
+default after constructor means it has move
+
+sink: pass ownership of parameter, so a function that is a sink takes some variable and does not return it
